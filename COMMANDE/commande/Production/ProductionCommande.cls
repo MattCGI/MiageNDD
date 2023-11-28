@@ -14,10 +14,6 @@ XData ProductionDefinition
   </Item>
   <Item Name="GestionSinistre" Category="" ClassName="commande.BP.GestionSinistre" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
   </Item>
-  <Item Name="ServiceFichierSinistreReservation" Category="" ClassName="commande.BS.ServiceFichierSinistreReservation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
-    <Setting Target="Adapter" Name="FilePath">/flow/reservation/</Setting>
-    <Setting Target="Adapter" Name="FileSpec">*.csv</Setting>
-  </Item>
   <Item Name="ServiceVoiture" Category="" ClassName="commande.BS.ServiceVoiture" PoolSize="0" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
   </Item>
 </Production>

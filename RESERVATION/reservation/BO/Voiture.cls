@@ -12,7 +12,7 @@ Method creerVoiture(pRequest As reservation.msg.creerVoitureDmde, Output pRespon
     
     set pResponse = ##class(reservation.msg.creerVoitureRpse).%New()
     set voiture = ##class(reservation.data.Voiture).%New()
-    set voiture.ATTRIBUT = pRequest.ATTRIBUT
+    set voiture.plaque = pRequest.plaque
     set tsc = voiture.%Save()
 
     set pResponse.codeRetour = "OK"

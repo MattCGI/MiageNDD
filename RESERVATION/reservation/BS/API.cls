@@ -11,18 +11,18 @@ XData UrlMap [ XMLNamespace = "http://www.intersystems.com/urlmap" ]
 <!-- Swagger specs -->
 <Route Url="/_spec" Method="GET" Call="SwaggerSpec" />
 <!-- Créer une voiture-->
-<Route Url="?" Method="POST" Call="CreerVoiture"/>
+<Route Url="/ROUTETODEFINE" Method="POST" Call="CreerVoiture"/>
 <!-- Déclarer un sinistre suite à un retour retour-->
 <Route Url="/voiture/:plaque/sinistre" Method="POST" Call="VoitureCreerSinistre"/>
 
 
 
 <!-- Reserver une voiture-->
-<Route Url="?" Method="?" Call="ReserverVoiture"/>
-<Route Url="?" Method="?" Call="SupprimerReservationVoiture"/>
-<Route Url="?" Method="?" Call="ModifierReservationVoiture"/>
-<Route Url="?" Method="?" Call="RechercherReservationVoiture"/>
-<Route Url="?" Method="?" Call="RecupérerCategorieVoitureDisponible"/>
+<Route Url="/ROUTETODEFINE" Method="?" Call="ReserverVoiture"/>
+<Route Url="/ROUTETODEFINE" Method="?" Call="SupprimerReservationVoiture"/>
+<Route Url="/ROUTETODEFINE" Method="?" Call="ModifierReservationVoiture"/>
+<Route Url="/ROUTETODEFINE" Method="?" Call="RechercherReservationVoiture"/>
+<Route Url="/ROUTETODEFINE" Method="?" Call="RecupérerCategorieVoitureDisponible"/>
 </Routes>
 }
 

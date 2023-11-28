@@ -15,12 +15,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:52773/api/reservation/",
+							"raw": "http://{{server}}:{{port}}/api/reservation/",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "52773",
+							"port": "{{port}}",
 							"path": [
 								"api",
 								"reservation",
